@@ -38,7 +38,7 @@ app.post("/", function (req, res) {
 
     const options = {
         method: "POST",
-        auth: "Rowdy:db21cf5242c0e11a3cdddcc92950841f-us10"
+        auth: "Rowdy:ac3b8fa4b14cfba634955ac27cda0bf9-us10"
         // auth: "Rowdy:69d1d5987fb009fa6dd6ab8fcb735ab06f-us10" //for failure checking
     }
 
