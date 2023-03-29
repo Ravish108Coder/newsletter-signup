@@ -48,7 +48,7 @@ app.post("/", function (req, res) {
             res.sendFile(__dirname + "/success.html");
         }else{
             // res.send("SORRY, we don't get your request try again later!");
-            res.sendFile(__dirname + "/failure.html");
+            res.sendFile(__dirname + "/success.html");
             console.log(response.statusCode);
         }
         response.on("data", function(data){
